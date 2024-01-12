@@ -1,10 +1,16 @@
 This is basics of Git common commands
 
 git init
-git config user.name tutorialsfor
-git config user.mail tutorialsfor.com@gmail.com
+git config --global user.name tutorialsfor
+git config --global user.mail tutorialsfor.com@gmail.com
 
 git clone https://github.com/tutorialsfor/aws.git
 
 move to the cloned repository which got downloaded in my case aws
 
+git add .
+git commit -m "basics of commands"
+git show
+git status
+git log
+git push
